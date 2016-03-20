@@ -6,6 +6,7 @@ Contains Rwanda MoH customization files for the UI
 * Download mohbranding folder from here and add it into your OpenMRS Data directory
 * Add the following lines at the end of your openmrs-runtime.properties file
 ```
+custom.index.jsp.file=mohbranding/index.jsp
 custom.style.css.file=mohbranding/style.css
 custom.images.dir=mohbranding/images
 custom.template.dir=mohbranding/templates

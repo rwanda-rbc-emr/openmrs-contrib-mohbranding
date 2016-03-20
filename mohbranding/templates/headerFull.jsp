@@ -138,7 +138,7 @@
 					out.println(loc.getName().toUpperCase());
 	
 				} catch (Exception e) {
-					out.println("Location not configured");
+					out.println("");
 				} 
 			%>
 			</span>
