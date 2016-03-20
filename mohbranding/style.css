@@ -6,6 +6,7 @@
 	background: url("images/banner_moh.png") no-repeat top left #2092c4;
 	height: 64px;
 	color: white;
+	width:100%;
 }
 
 #banner {
@@ -21,12 +22,17 @@
 
 #navList {
 	background-color: #15719a;
-	padding: 5px;
+	padding: 1px;
+	margin-top: -1.1em;
+	width:100%;
 	width: auto;
+	margin-bottom: 0.2em;
 }
 
 #navList a:link, #navList a:active, #navList a:visited, #navList a:hover {
-	font-size: 1.1em;
+	font-size: 0.8em;
+	text-decoration: none;
+	color: #ffffff;
 }
 
 .boxHeader {
