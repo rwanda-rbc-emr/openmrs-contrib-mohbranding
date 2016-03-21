@@ -52,8 +52,8 @@
 		<!--link rel="shortcut icon" type="image/ico" href="<openmrs:contextPath/><spring:theme code='favicon' />">
 		<link rel="icon" type="image/png" href="<openmrs:contextPath/><spring:theme code='favicon.png' />"-->
 
-		<link rel="shortcut icon" type="image/ico" href="images/moh-rwanda-logo.gif">
-		<link rel="icon" type="image/png" href="images/moh-rwanda-logo.gif">
+		<link rel="shortcut icon" type="image/ico" href="<openmrs:contextPath/>/images/moh-rwanda-logo.gif">
+		<link rel="icon" type="image/png" href="<openmrs:contextPath/>/images/moh-rwanda-logo.gif">
 		<!-- End of MOH custom code -->
 
 		<c:choose>
