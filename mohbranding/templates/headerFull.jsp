@@ -46,15 +46,22 @@
 			<openmrs:htmlInclude file="/scripts/jquery-ui/js/jquery-ui-timepicker-i18n.js" />
 			<link href="<openmrs:contextPath/>/scripts/jquery-ui/css/<spring:theme code='jqueryui.theme.name' />/jquery-ui.custom.css" type="text/css" rel="stylesheet" />
 		</c:if>
-		<link rel="shortcut icon" type="image/ico" href="<openmrs:contextPath/><spring:theme code='favicon' />">
-		<link rel="icon" type="image/png" href="<openmrs:contextPath/><spring:theme code='favicon.png' />">
+		
+		<!-- Start of MOH custom code -->
+
+		<!--link rel="shortcut icon" type="image/ico" href="<openmrs:contextPath/><spring:theme code='favicon' />">
+		<link rel="icon" type="image/png" href="<openmrs:contextPath/><spring:theme code='favicon.png' />"-->
+
+		<link rel="shortcut icon" type="image/ico" href="images/moh-rwanda-logo.gif">
+		<link rel="icon" type="image/png" href="images/moh-rwanda-logo.gif">
+		<!-- End of MOH custom code -->
 
 		<c:choose>
 			<c:when test="${!empty pageTitle}">
-				<title>${pageTitle}</title>
+				<title>Rwanda EMR - ${pageTitle}</title>
 			</c:when>
 			<c:otherwise>
-				<title><openmrs:message code="openmrs.title"/></title>
+				<title>Rwanda EMR - <openmrs:message code="openmrs.title"/></title>
 			</c:otherwise>
 		</c:choose>
 
