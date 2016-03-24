@@ -8,6 +8,7 @@
 	jQuery(document).ready(function() {
 		jQuery(".ui-dialog").css("border-color", "#15719a");
 		jQuery(".ui-dialog").find(".ui-widget-header").css({"background": "#15719a", "border-color": "#15719a"});
+		jQuery(".ui-datepicker").find(".ui-datepicker-header").css({"background": "#15719a", "border-color": "#15719a"});
 	});
 </script>
 

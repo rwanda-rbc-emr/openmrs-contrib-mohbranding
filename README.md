@@ -10,7 +10,6 @@ custom.index.jsp.file=mohbranding/index.jsp
 custom.style.css.file=mohbranding/style.css
 custom.images.dir=mohbranding/images
 custom.template.dir=mohbranding/templates
-custom.patientDashboardForm.jsp.file=mohbranding/patientDashboardForm.jsp
 ```
 
 Current version: 1.11.5
