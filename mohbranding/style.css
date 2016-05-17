@@ -43,3 +43,12 @@
 .box {
 	border-color: #15719a;
 }
+
+.ui-tabs .ui-tabs-nav {
+    background: #15719a;
+    border-color: #15719a;
+}
+
+.ui-widget-content {
+	border-color: #15719a;
+}
