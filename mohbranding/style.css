@@ -35,6 +35,7 @@
 	color: #ffffff;
 }
 
+/*
 .boxHeader {
 	background-color: #15719a;
 	border-color: #15719a;
@@ -51,4 +52,23 @@
 
 .ui-widget-content {
 	border-color: #15719a;
+}
+*/
+
+/**********************************************************/
+
+.box, .boxHeader, .boxRed, .boxHeaderRed, .boxExited, .boxHeaderExited, .ui-datepicker-header {
+	border: 1px solid #15719a;
+}
+
+.boxHeader, .ui-datepicker-header {
+	background-color: #15719a;
+}
+
+#patientTabs {
+	border-bottom: 1px solid #15719a;
+}
+
+#patientTabs a:link, #patientTabs a:visited {
+	border: 1px solid #15719a;
 }
