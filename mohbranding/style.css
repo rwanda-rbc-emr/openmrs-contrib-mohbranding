@@ -55,6 +55,13 @@
 }
 */
 
+.ui-tabs, .ui-state-default {
+	border-color: #15719a;
+}
+.ui-tabs-nav {
+	background: #15719a;
+}
+
 /**********************************************************/
 
 .box, .boxHeader, .boxRed, .boxHeaderRed, .boxExited, .boxHeaderExited, .ui-datepicker-header {
